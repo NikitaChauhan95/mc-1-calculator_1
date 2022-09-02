@@ -57,12 +57,10 @@ public class ScientificCalculator {
 		} catch (CalculatorException e) {
 			throw new RuntimeException(e);
 		}
-		/*try {
+		try {
 			scientificCalculator.squareRoot(7);
 		} catch (CalculatorException e) {
 			throw new RuntimeException(e);
 		}
-
-		 */
 	}
 }
