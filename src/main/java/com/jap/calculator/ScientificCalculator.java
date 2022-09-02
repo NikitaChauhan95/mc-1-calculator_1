@@ -2,7 +2,7 @@ package com.jap.calculator;
 
 public class ScientificCalculator {
 
-	/*public double cielOfANumber(float num) throws CalculatorException
+	public double cielOfANumber(float num) throws CalculatorException
 	{
 		//check if num is equal to or less than 0 than throw the userdefined exception with proper message
 		//or else call ceil method of Math class and return the value
@@ -13,7 +13,7 @@ public class ScientificCalculator {
 		return Math.ceil(num);
 	}
 
-	
+	/*
 	public double floorOfANumber(float num) throws CalculatorException
 	{
 		//check if num is equal to or less than 0 than throw the userdefined exception with proper message
