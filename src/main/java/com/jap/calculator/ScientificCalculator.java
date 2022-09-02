@@ -12,8 +12,6 @@ public class ScientificCalculator {
 
 		return Math.ceil(num);
 	}
-
-	/*
 	public double floorOfANumber(float num) throws CalculatorException
 	{
 		//check if num is equal to or less than 0 than throw the userdefined exception with proper message
@@ -25,6 +23,7 @@ public class ScientificCalculator {
 
 
 	}
+	/*
 	
     public long power(int num1, int num2) throws CalculatorException {
 		//if num1 is less than num2 than throw the userdefined exception with proper message
