@@ -29,7 +29,6 @@ public class ScientificCalculator {
 
 		return (long) Math.pow(num1,num2);
     }
-    /*
     public double squareRoot(int num) throws CalculatorException
     {
 		//check if num is equal to or less than 0 than throw the userdefined exception with proper message
@@ -41,6 +40,7 @@ public class ScientificCalculator {
 
 		return Math.sqrt(num);
     }
+	/*
 
 	public static void main(String[] args) {
 		ScientificCalculator scientificCalculator = new ScientificCalculator();
