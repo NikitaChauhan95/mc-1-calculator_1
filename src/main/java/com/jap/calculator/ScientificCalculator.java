@@ -47,12 +47,12 @@ public class ScientificCalculator {
 		} catch (CalculatorException e) {
 			throw new RuntimeException(e);
 		}
-		/*try {
+		try {
 			scientificCalculator.floorOfANumber(7.5f);
 		} catch (CalculatorException e) {
 			throw new RuntimeException(e);
 		}
-		try {
+		/*try {
 			scientificCalculator.power(34,2);
 		} catch (CalculatorException e) {
 			throw new RuntimeException(e);
