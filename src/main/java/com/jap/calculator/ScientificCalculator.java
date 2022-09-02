@@ -12,20 +12,15 @@ public class ScientificCalculator {
 
 		return Math.ceil(num);
 	}
-	public double floorOfANumber(float num) throws CalculatorException
-	{
+	public double floorOfANumber(float num) throws CalculatorException {
 		//check if num is equal to or less than 0 than throw the userdefined exception with proper message
 		//or else call floor method of Math class and return the value
-		if(num <= 0){
+		if (num <= 0) {
 			throw new CalculatorException("Number must be greater than 0");
 		}
 		return Math.floor(num);
-
-
 	}
-	/*
-	
-    public long power(int num1, int num2) throws CalculatorException {
+	public long power(int num1, int num2) throws CalculatorException {
 		//if num1 is less than num2 than throw the userdefined exception with proper message
 		//else use Math pow method and return the value
 		if(num1 < num2){
@@ -34,7 +29,7 @@ public class ScientificCalculator {
 
 		return (long) Math.pow(num1,num2);
     }
-    
+    /*
     public double squareRoot(int num) throws CalculatorException
     {
 		//check if num is equal to or less than 0 than throw the userdefined exception with proper message
